@@ -1,0 +1,93 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+.forgot-wrapper{
+	width: 100%;
+	height: 100vh;
+	padding-top: 100px;
+	background: linear-gradient(to right, #14C38E, #00FFAB);
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.line{
+	border: 1px solid #e0e5e7;
+}
+.form-box{
+	background-color: white;
+	width: 500px;
+	margin: auto;
+	border-radius: 6px;
+}
+.form-box h3{
+	margin-bottom: 16px;
+	padding-top: 16px;
+	margin-left: 16px;
+	letter-spacing: 1px;
+	color: #242F9B;
+}
+.line-2{
+	border: 1px solid #e0e5e7;
+}
+.form-group p{
+	margin-left: 16px;
+	margin-top: 16px;
+	font-size: 18px;
+	margin-bottom: 16px;
+	margin-right: 16px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+.form-group input{
+	margin-left: 16px;
+	margin-bottom: 16px;
+	width: 87%;
+	padding: 12px;
+}
+.form-group button{
+	margin-left: 16px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.btn-1{
+	padding: 16px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.btn-2{
+	padding: 16px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.white{
+	background-color: white;
+    box-shadow: 4px 4px 8px rgb(0,0,0,0.3);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.yellow{
+	background-color: yellow;
+    box-shadow: 4px 4px 8px rgb(0,0,0,0.3);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.text-right{
+	text-align: right;
+	margin-right: 20px;
+}
+.form-group input:focus{
+	outline-color: red;
+}
+.form-group input:focus::placeholder{
+	color: red;
+}
